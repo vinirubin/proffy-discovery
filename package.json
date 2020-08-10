@@ -1,0 +1,27 @@
+{
+  "name": "proffy-discovery",
+  "version": "1.0.0",
+  "description": "A project to connect teachers and students",
+  "author": {
+    "name": "Vinícius Rubin",
+    "email": "vinicius.rubin@hotmail.com",
+    "gitHub": "github.com/vinirubin"
+  },
+  "license": "",
+  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "scripts": {
+    "dev": "nodemon src/server.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "nunjucks": "^3.2.2",
+    "sqlite-async": "^1.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
